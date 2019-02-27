@@ -14,3 +14,17 @@
 // @import "~bootstrap/scss/images";
 // @import "~bootstrap/scss/code";
 // @import "~bootstrap/scss/grid";
+
+body {
+    position: relative;
+};
+
+.nav-pills .nav-link {
+    border-radius: 1.5rem;
+};
+
+nav {
+    background-color: white;
+};
+
+

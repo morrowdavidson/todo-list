@@ -1,9 +1,60 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Todo List</title>
-  </head>
-  <body>
-    <script src="./src/index.js"></script>
-  </body>
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title></title>
+
+</head>
+<body data-spy="scroll" data-target="#list-nav" data-offset="5">
+   
+  <nav class="fixed-top"> 
+    <ul id="list-nav" class="nav nav-pills nav-fill">
+      <li class="nav-item">
+          <a class="nav-link" href="#today">Today</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#thisWeek">This Week</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#allTodos">All Tasks</a>
+      </li>
+    </ul>
+  </nav> 
+
+  <div id="lists-container">
+  <ul class="list-group">
+      <lh class="list-group-item" id="today"><h3>Today</h3></lh>
+      <li class="list-group-item"><i class="far fa-check-circle"></i> Cras justo odio</li>
+      <li class="list-group-item"><i class="far fa-circle"></i> Porta ac consectetur ac</li>
+  </ul>
+  <ul class="list-group">
+      <lh class="list-group-item" id="thisWeek"><h3>This Week</h3></lh>
+      <li class="list-group-item"><i class="far fa-check-circle"></i> Cras justo odio</li>
+      <li class="list-group-item"><i class="far fa-circle"></i> Porta ac consectetur ac</li>
+      <li class="list-group-item"><i class="far fa-arrow-alt-circle-up"></i> Morbi leo risus</li>
+      <li class="list-group-item"><i class="far fa-arrow-alt-circle-up"></i> Porta ac consectetur ac</li>
+      <li class="list-group-item"><i class="far fa-arrow-alt-circle-up"></i> Vestibulum at eros</li>
+  </ul>
+  <ul class="list-group">
+      <lh class="list-group-item" id="allTodos"><h3>All Tasks</h3></lh>
+      <li class="list-group-item"><i class="far fa-check-circle"></i> Cras justo odio</li>
+      <li class="list-group-item"><i class="far fa-circle"></i> Porta ac consectetur ac</li>
+      <li class="list-group-item"><i class="far fa-arrow-alt-circle-up"></i> Morbi leo risus</li>
+      <li class="list-group-item"><i class="far fa-arrow-alt-circle-up"></i> Vestibulum at eros</li>
+      <li class="list-group-item"><i class="far fa-arrow-alt-circle-up"></i> Vestibulum at eros2</li>
+      <li class="list-group-item"><i class="far fa-arrow-alt-circle-up"></i> Vestibulum at eros3</li>
+      <li class="list-group-item"><i class="far fa-arrow-alt-circle-up"></i> Dapibus ac facilisis in</li>
+
+
+
+  </ul>
+  </div>
+    
+
+
+
+  <script src="./main.js"></script>
+</body>
 </html>

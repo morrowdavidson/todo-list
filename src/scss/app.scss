@@ -14,7 +14,28 @@
 // @import "~bootstrap/scss/images";
 // @import "~bootstrap/scss/code";
 // @import "~bootstrap/scss/grid";
+$today  : #E674A2;
+$week   : #49AD9A;
+$all    : #026C73;
 
+lh {
+    text-indent: -1.2em;
+}
+
+lh i {
+    color: $today;
+
+}
+
+i {
+    padding-right: .2em;
+}
+
+li i {
+    font-size: 1.75em;
+    position: relative;
+    top: .15em;
+}
 
 body {
     position: relative;
@@ -32,7 +53,6 @@ nav {
     margin-left: 3vw;
     border-radius: 1.5rem;
     border: 1px solid $secondary;
-
 };
 
 #lists-container {
@@ -46,13 +66,17 @@ nav {
 };
 
 #today-nav.active{
-    background: #E674A2;
+    background: $today;
 };
 
 #this-week-nav.active{
-    background: #49AD9A;
+    background: $week;
 };
 
 #all-tasks-nav.active{
-    background: #026C73;
+    background: $all;
 };
+
+#lists-container ul {
+    padding-bottom: 2em;
+}

@@ -15,19 +15,23 @@
 // @import "~bootstrap/scss/code";
 // @import "~bootstrap/scss/grid";
 
+
 body {
     position: relative;
 };
 
 .nav-pills .nav-link {
     border-radius: 1.5rem;
+    color: $dark;
 };
 
 nav {
     background-color: white;
-    padding-top: 2vh;
-    padding-right: 3vw;
-    padding-left: 3vw;
+    margin-top: 2vh;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    border-radius: 1.5rem;
+    border: 1px solid $secondary;
 
 };
 
@@ -35,8 +39,20 @@ nav {
     width: 500px;
     padding-top: 10vh;
     margin: auto;
-}
+};  
 
 .list-group-item{
     border:none;
-}
+};
+
+#today-nav.active{
+    background: #E674A2;
+};
+
+#this-week-nav.active{
+    background: #49AD9A;
+};
+
+#all-tasks-nav.active{
+    background: #026C73;
+};

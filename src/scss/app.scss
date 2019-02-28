@@ -18,13 +18,58 @@ $today  : #E674A2;
 $week   : #49AD9A;
 $all    : #026C73;
 
-lh {
-    text-indent: -1.2em;
+#main-app {
+    max-width:500px;
+    margin-right:auto;
+    margin-left:auto;
 }
 
-lh i {
-    color: $today;
 
+
+#today .fa-plus-square {
+    color: $today;
+}
+
+#thisWeek .fa-plus-square {
+    color: $week;
+}
+
+#thisWeek button {
+    border-color: $week;
+    border-width: 2px;
+    background: none;
+    color: $week;
+}
+
+#allTodos button {
+    border-color: $all;
+    border-width: 2px;
+    background: none;
+    color: $all;
+}
+
+#allTodos .fa-plus-square {
+    color: $all;
+}
+
+#thisWeek .fa-arrow-alt-circle-up {
+    color: $week;
+}
+
+#allTodos .fa-arrow-alt-circle-up {
+    color: $all;
+}
+
+#allTodos .in-progress .fa-arrow-alt-circle-up {
+    color: $week;
+}
+
+.fa-check-circle {
+    color: $today;
+}
+
+.fa-circle {
+    color: $today;
 }
 
 i {
@@ -49,16 +94,18 @@ body {
 nav {
     background-color: white;
     margin-top: 2vh;
-    margin-right: 3vw;
-    margin-left: 3vw;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 1.5rem;
     border: 1px solid $secondary;
+    max-width: 500px;
+
 };
 
 #lists-container {
     width: 500px;
     padding-top: 10vh;
-    margin: auto;
+    padding-left:50px;
 };  
 
 .list-group-item{
@@ -79,4 +126,12 @@ nav {
 
 #lists-container ul {
     padding-bottom: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-indent: -.25em;
+    padding-top: 1.5em;
+
 }

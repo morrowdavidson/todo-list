@@ -18,14 +18,7 @@ $today  : #E674A2;
 $week   : #49AD9A;
 $all    : #026C73;
 
-lh {
-    text-indent: -1.2em;
-}
 
-lh i {
-    color: $today;
-
-}
 
 i {
     padding-right: .2em;
@@ -56,8 +49,7 @@ nav {
 };
 
 #lists-container {
-    width: 500px;
-    padding-top: 10vh;
+    max-width: 500px;
     margin: auto;
 };  
 
@@ -77,6 +69,10 @@ nav {
     background: $all;
 };
 
-#lists-container ul {
-    padding-bottom: 2em;
+.list-group {
+    padding:20px;
+}
+
+#todayList i{
+    color: $today;
 }

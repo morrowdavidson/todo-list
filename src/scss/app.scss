@@ -70,9 +70,19 @@ nav {
 };
 
 .list-group {
-    padding:20px;
-}
+    padding-top:20px;
+    padding-right:30px;
+    padding-left:30px;
+};
 
 #todayList i{
     color: $today;
-}
+};
+
+#weekList i{
+    color: $week;
+};
+
+#allList i{
+    color: $all;
+};

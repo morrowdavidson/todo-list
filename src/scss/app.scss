@@ -32,6 +32,7 @@ li i {
 
 body {
     position: relative;
+    background-image: linear-gradient(to bottom, #E674A2,#49AD9A);
 };
 
 .nav-pills .nav-link {
@@ -86,3 +87,4 @@ nav {
 #allList i{
     color: $all;
 };
+

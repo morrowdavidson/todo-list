@@ -1,4 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
+@import "global.scss";
+@import "pill-nav.scss";
+@import "lists.scss";
+
 
 // // Custom.scss
 // // Option B: Include parts of Bootstrap
@@ -14,78 +18,3 @@
 // @import "~bootstrap/scss/images";
 // @import "~bootstrap/scss/code";
 // @import "~bootstrap/scss/grid";
-$today  : #E674A2;
-$week   : #49AD9A;
-$all    : #026C73;
-
-
-i {
-    padding-right: .2em;
-}
-
-li i {
-    font-size: 1.75em;
-    position: relative;
-    top: .15em;
-}
-
-body {
-    position: relative;
-    background-image: linear-gradient(to bottom, #E674A2,#49AD9A);
-};
-
-.nav-pills .nav-link {
-    border-radius: 1.5rem;
-    color: $dark;
-};
-
-nav {
-    background-color: white;
-    margin-top: 2vh;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 1.5rem;
-    border: 1px solid $secondary;
-    max-width: 500px;
-
-};
-
-#lists-container {
-    max-width: 500px;
-    margin: auto;
-};  
-
-.list-group-item{
-    border:none;
-};
-
-#today-nav.active{
-    background: $today;
-};
-
-#this-week-nav.active{
-    background: $week;
-};
-
-#all-tasks-nav.active{
-    background: $all;
-};
-
-.list-group {
-    padding-top:20px;
-    padding-right:30px;
-    padding-left:30px;
-};
-
-#todayList i{
-    color: $today;
-};
-
-#weekList i{
-    color: $week;
-};
-
-#allList i{
-    color: $all;
-};
-

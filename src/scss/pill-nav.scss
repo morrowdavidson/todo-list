@@ -1,0 +1,27 @@
+nav {
+    background-color: white;
+    margin-top: 2vh;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 1.5rem;
+    border: 1px solid $secondary;
+    max-width: 500px;
+
+};
+
+.nav-pills .nav-link {
+    border-radius: 1.5rem;
+    color: $dark;
+};
+
+#today-nav.active{
+    background: $today;
+};
+
+#this-week-nav.active{
+    background: $week;
+};
+
+#all-tasks-nav.active{
+    background: $all;
+};

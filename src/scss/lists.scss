@@ -1,0 +1,31 @@
+.list-group-item{
+    border:none;
+};
+
+.list-group {
+    padding-top:20px;
+    padding-right:30px;
+    padding-left:30px;
+};
+
+#todayList i{
+    color: $today;
+};
+
+#weekList i{
+    color: $week;
+};
+
+#allList i{
+    color: $all;
+};
+
+i {
+    padding-right: .2em;
+}
+
+li i {
+    font-size: 1.75em;
+    position: relative;
+    top: .15em;
+}

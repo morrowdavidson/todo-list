@@ -1,0 +1,14 @@
+$today  : #E674A2;
+$week   : #49AD9A;
+$all    : #026C73;
+
+body {
+    position: relative;
+    background-image: linear-gradient(to bottom,$today,$week);
+};
+
+#lists-container {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+};  

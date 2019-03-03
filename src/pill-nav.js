@@ -48,8 +48,33 @@ let clearActive = () => {
     });
 };
 
-function showContent(){
-
+function showContent(navLinkId){
+    let listId = navLinkId.replace('-nav','-list');
+    let todayList = document.getElementById('today-list');
+    let weekList = document.getElementById('this-week-list');
+    let allList = document.getElementById('all-tasks-list');
+    if (listId == "today-list"){
+        if (!weekList.classList.contains('d-none')){
+            weekList.classList.add('d-none');
+        }
+        if (!allList.classList.contains('d-none')){
+            allList.classList.add('d-none');
+        }
+    } else if(listId == "this-week-list"){
+        if (!allList.classList.contains('d-none')){
+            allList.classList.add('d-none');
+        }
+        if (weekList.classList.contains('d-none')){
+            weekList.classList.remove('d-none');
+        }
+    } else {
+        if (weekList.classList.contains('d-none')){
+            weekList.classList.remove('d-none');
+        }
+        if (allList.classList.contains('d-none')){
+            allList.classList.remove('d-none');
+        }
+    }
 }
 
 const navList = [];
@@ -102,4 +127,4 @@ function constructNav() {
 }
 
 constructNav();
-setActive(navList[0].firstChild);
+navAction(navList[0].firstChild);

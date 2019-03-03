@@ -2,10 +2,12 @@ $today  : #E674A2;
 $week   : #49AD9A;
 $all    : #026C73;
 
-body {
-    position: relative;
-    background-image: linear-gradient(to bottom,$today,$week);
-};
+// #page {
+//     background-image: linear-gradient(to bottom,$today,$week);
+//     height:100vh;
+//     padding:0;
+//     margin:0;
+// };
 
 #lists-container {
     max-width: 500px;

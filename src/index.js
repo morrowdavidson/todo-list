@@ -1,5 +1,6 @@
 import './scss/app.scss';
 import 'bootstrap';
+import { } from './pill-nav';
 
 
 // // Import bootstrap plugins individually as needed:

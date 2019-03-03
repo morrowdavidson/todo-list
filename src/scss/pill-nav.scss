@@ -1,17 +1,19 @@
-nav {
+#pill-nav {
     background-color: white;
-    margin-top: 2vh;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 1.5rem;
+    border-radius: 1.6rem;
     border: 1px solid $secondary;
-    max-width: 500px;
-
+    max-width: 400px;
 };
 
 .nav-pills .nav-link {
     border-radius: 1.5rem;
     color: $dark;
+    font-size: .9em;
+    padding-top: 1em;
+    padding-bottom: .9em;
+    border:0;
 };
 
 #today-nav.active{

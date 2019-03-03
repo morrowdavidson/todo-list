@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-custom_1);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        opacity: 0.1;
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_1);
+      }
+
+      .cls-6 {
+        filter: url(#Rectangle_2);
+      }
+
+      .cls-7 {
+        filter: url(#Rectangle_3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.042" y1="0.094" x2="0.933" y2="0.941" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00636a"/>
+      <stop offset="0.281" stop-color="#49ad9a"/>
+      <stop offset="1" stop-color="#ec317d"/>
+    </linearGradient>
+    <filter id="Rectangle_3" x="-10.121" y="-7.63" width="66.099" height="61.072" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2" x="-8.95" y="-5.567" width="63.766" height="56.945" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1" x="-8.169" y="-4.378" width="62.21" height="54.565" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-custom_1">
+      <rect width="45" height="45"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" class="cls-1">
+    <rect class="cls-4" width="45" height="45"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(0 -0.002)">
+      <path id="Icon_Shape" data-name="Icon Shape" class="cls-2" d="M29.311,0c4.518,0,6.776,0,9.208.769a9.557,9.557,0,0,1,5.712,5.712C45,8.913,45,11.172,45,15.689V29.311c0,4.518,0,6.776-.769,9.208a9.556,9.556,0,0,1-5.712,5.712C36.087,45,33.829,45,29.311,45H15.689c-4.518,0-6.776,0-9.208-.769A9.556,9.556,0,0,1,.769,38.519C0,36.087,0,33.829,0,29.311V15.689c0-4.517,0-6.776.769-9.208A9.557,9.557,0,0,1,6.481.769C8.913,0,11.171,0,15.689,0Z" transform="translate(0)"/>
+      <g class="cls-7" transform="matrix(1, 0, 0, 1, 0, 0)">
+        <path id="Rectangle_3-2" data-name="Rectangle 3" class="cls-3" d="M3.91,6.77a1.318,1.318,0,0,0-1.682.1L.418,8.562a1.318,1.318,0,0,0-.075,1.85L10.488,21.568a1.318,1.318,0,0,0,1.908.045L15.4,18.605,30.022,3.99a1.318,1.318,0,0,0,.012-1.852L28.339.4A1.318,1.318,0,0,0,26.528.326L12.184,12.861Z" transform="translate(4.88 17.77) rotate(-20)"/>
+      </g>
+      <g class="cls-6" transform="matrix(1, 0, 0, 1, 0, 0)">
+        <path id="Rectangle_2-2" data-name="Rectangle 2" class="cls-3" d="M3.91,6.77a1.318,1.318,0,0,0-1.682.1L.418,8.562a1.318,1.318,0,0,0-.075,1.85L10.488,21.568a1.318,1.318,0,0,0,1.908.045L15.4,18.605,30.022,3.99a1.318,1.318,0,0,0,.012-1.852L28.339.4A1.318,1.318,0,0,0,26.528.326L12.184,12.861Z" transform="matrix(0.98, -0.17, 0.17, 0.98, 6.05, 14.71)"/>
+      </g>
+      <g class="cls-5" transform="matrix(1, 0, 0, 1, 0, 0)">
+        <path id="Rectangle_1-2" data-name="Rectangle 1" class="cls-4" d="M3.91,6.77a1.318,1.318,0,0,0-1.682.1L.418,8.562a1.318,1.318,0,0,0-.075,1.85L10.488,21.568a1.318,1.318,0,0,0,1.908.045L15.4,18.605,30.022,3.99a1.318,1.318,0,0,0,.012-1.852L28.339.4A1.318,1.318,0,0,0,26.528.326L12.184,12.861Z" transform="matrix(1, -0.09, 0.09, 1, 6.83, 13.27)"/>
+      </g>
+    </g>
+  </g>
+</svg>

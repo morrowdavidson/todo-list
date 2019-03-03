@@ -9,39 +9,37 @@
 </head>
 <body>
   <div id="page">
-    <!-- <nav id="pill-nav"> 
-      <ul id="list-nav" class="nav nav-pills nav-fill">
-        <li class="nav-item">
-            <a class="nav-link" id="today-nav" href="#today">Today</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="this-week-nav" href="#thisWeek">This Week</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="all-tasks-nav" href="#allTodos">All Tasks</a>
-        </li>
+    <div id="app-container">
+      <div id="header">
+        <div id="logo_tag">
+          <h1>todone</h1>
+          <p>A simple todo app.</p>
+        </div>
+        <i class="gear-icon"></i>
+      </div>
+      <ul class="list-group" id="allList">
+          <li class="list-group-item"><i class="far fas fa-calendar-week"></i> Vestibulum at eros2</li>
+          <li class="list-group-item"><i class="far fas fa-calendar-week"></i> Vestibulum at eros3</li>
+          <li class="list-group-item"><i class="far fas fa-calendar-week"></i> Dapibus ac facilisis in</li>
+          <li class="list-group-item"><i class="fas fa-plus"></i> Add a task</li>
       </ul>
-    </nav>  -->
+      
+      <ul class="list-group" id="weekList">
+            <li class="list-group-item"><i class="fas fa-calendar-day"></i> Morbi leo risus</li>
+            <li class="list-group-item"><i class="fas fa-calendar-day"></i> Vestibulum at eros</li>
+            <li class="list-group-item"><i class="fas fa-plus"></i> Add a task for this week</li>
+      
+        </ul>
+      
+        <ul class="list-group" id="todayList">
+          <li class="list-group-item"><i class="far fa-check-circle"></i> Cras justo odio</li>
+          <li class="list-group-item"><i class="far fa-circle"></i> Porta ac consectetur ac</li>
+          <li class="list-group-item"><i class="fas fa-plus"></i> Add a task for today</li>
+      </ul> 
+    </div>
+
   
-  <!-- <ul class="list-group" id="allList">
-    <li class="list-group-item"><i class="far fas fa-calendar-week"></i> Vestibulum at eros2</li>
-    <li class="list-group-item"><i class="far fas fa-calendar-week"></i> Vestibulum at eros3</li>
-    <li class="list-group-item"><i class="far fas fa-calendar-week"></i> Dapibus ac facilisis in</li>
-    <li class="list-group-item"><i class="fas fa-plus"></i> Add a task</li>
-</ul>
 
-<ul class="list-group" id="weekList">
-      <li class="list-group-item"><i class="fas fa-calendar-day"></i> Morbi leo risus</li>
-      <li class="list-group-item"><i class="fas fa-calendar-day"></i> Vestibulum at eros</li>
-      <li class="list-group-item"><i class="fas fa-plus"></i> Add a task for this week</li>
-
-  </ul>
-
-  <ul class="list-group" id="todayList">
-    <li class="list-group-item"><i class="far fa-check-circle"></i> Cras justo odio</li>
-    <li class="list-group-item"><i class="far fa-circle"></i> Porta ac consectetur ac</li>
-    <li class="list-group-item"><i class="fas fa-plus"></i> Add a task for today</li>
-</ul> -->
   </div> 
 
   <script src="./main.js"></script>

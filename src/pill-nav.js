@@ -57,14 +57,16 @@ const navList = [];
 function constructNavList () {
 
     navOptions.navTitles.forEach(linkTxt => {
-        let linkId = snakeCase(linkTxt) + '-nav'; 
+        let linkAnchor = snakeCase(linkTxt);
+        let linkId = linkAnchor + '-nav'; 
+        
         let li = createLi();
         li.setAttribute('class','nav-item');
         let link = createLink();
         setAttributes(link, {
             'id'    :   linkId,
             'class' :   "nav-link",
-            'href'  :    '#' + linkId,     
+            'href'  :    '#' + linkAnchor,     
         });
         link.innerHTML = linkTxt;
         
@@ -80,7 +82,7 @@ function constructNavList () {
 } 
 
 function constructNav() {
-    const page = document.getElementById('page');
+    const container = document.getElementById('header');
 
     constructNavList ();
     let nav = createNav();
@@ -96,7 +98,7 @@ function constructNav() {
         ul.appendChild(navItem);
     }); 
     nav.appendChild(ul);
-    page.appendChild(nav);
+    container.appendChild(nav);
 }
 
 constructNav();

@@ -1,17 +1,47 @@
-$today      : #E674A2;
-$week       : #49AD9A;
-$all        : #026C73;
-$lightGrey  : #979797;
+$today      :#E674A2;
+$week       :#49AD9A;
+$all        :#026C73;
+$grey       :#707070;
+$lightGrey  :#979797;
 
-// #page {
-//     background-image: linear-gradient(to bottom,$today,$week);
-//     height:100vh;
-//     padding:0;
-//     margin:0;
-// };
+#page {
+    background-image: linear-gradient(to bottom,$today,$week);
+    height: 100%;
+    padding-top: 30px;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 30px;
+};
 
-#lists-container {
+#app-container {
     max-width: 500px;
     margin: auto;
     background-color: white;
+    padding: 45px;
+    padding-top: 50px;
+    
 };  
+
+#header h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: $grey;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#header p {
+    font-size: 12px;
+    font-weight: lighter;
+    color: $grey;
+    margin-top: -5px;
+    padding-top: 0;
+}
+
+#logo_tag {
+    background-image: url('../assets/todone_logo.svg');
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    padding-bottom: 25px;
+}

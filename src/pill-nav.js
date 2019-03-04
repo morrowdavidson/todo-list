@@ -1,10 +1,6 @@
-const navOptions = {
-    navTitles: [ 
-        "Today",
-        "This week",
-        "All tasks",
-    ]
-};
+import { appOptions } from './options.js';
+
+const navList = [];
 
 const snakeCase = function(string) {
     // wtf case
@@ -77,11 +73,9 @@ function showContent(navLinkId){
     }
 }
 
-const navList = [];
+function constructNavList() {
 
-function constructNavList () {
-
-    navOptions.navTitles.forEach(linkTxt => {
+    appOptions.sections.forEach(linkTxt => {
         let linkAnchor = snakeCase(linkTxt);
         let linkId = linkAnchor + '-nav'; 
         

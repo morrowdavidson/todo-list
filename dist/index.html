@@ -17,7 +17,7 @@
         </div>
         <i class="gear-icon"></i>
       </div>
-      <ul class="list-group" id="all-tasks-list">
+      <!-- <ul class="list-group" id="all-tasks-list">
           <li class="list-group-item"><i class="far fas fa-calendar-week"></i> Vestibulum at eros2</li>
           <li class="list-group-item"><i class="far fas fa-calendar-week"></i> Vestibulum at eros3</li>
           <li class="list-group-item"><i class="far fas fa-calendar-week"></i> Dapibus ac facilisis in</li>
@@ -29,17 +29,29 @@
             <li class="list-group-item"><i class="fas fa-calendar-day"></i> Vestibulum at eros</li>
             <li class="list-group-item"><i class="fas fa-plus"></i> Add a task for this week</li>
       
-        </ul>
+        </ul> -->
       
-        <ul class="list-group" id="today-list">
-          <li class="list-group-item"><i class="far fa-check-circle"></i> Cras justo odio</li>
-          <li class="list-group-item"><i class="far fa-circle"></i> Porta ac consectetur ac</li>
-          <li class="list-group-item"><i class="fas fa-plus"></i> Add a task for today</li>
+        <!-- <ul class="list-group" id="today-list">
+           <li class="list-group-item"><i class="far fa-check-circle"></i> Cras justo odio</li>
+          <li class="list-group-item"><i class="far fa-circle"></i> Porta ac consectetur ac</li> 
+        </ul>  -->
+      
+      <ul class="list-group" id="all-tasks-list">
+          <li id="all-tasks-list-input" class="list-group-item add-task-input d-none"><button class="fas fa-plus"></button><input type="text" /></li>
+          <li id="all-tasks-list-button" class="list-group-item add-task-button"><button class="fas fa-plus"></button> Add a task</li>
+      </ul>
+
+      <ul class="list-group" id="this-week-list">
+          <li id="this-week-list-input" class="list-group-item add-task-input d-none"><button class="fas fa-plus"></button><input type="text" /></li>
+          <li id="this-week-list-button" class="list-group-item add-task-button"><button class="fas fa-plus"></button> Add a task for this week</li>
       </ul> 
+        
+      <ul class="list-group" id="today-list">
+          <li id="today-list-input" class="list-group-item add-task-input d-none"><button class="fas fa-plus"></button><input type="text" /></li>
+          <li id="today-list-button" class="list-group-item add-task-button"><button class="fas fa-plus"></button> Add a task for today</li>
+      </ul> 
+
     </div>
-
-  
-
   </div> 
 
   <script src="./main.js"></script>
